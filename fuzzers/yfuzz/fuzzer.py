@@ -14,7 +14,6 @@
 #
 
 # modified by Ice1187
-
 """Integration code for AFLplusplus fuzzer."""
 
 import os
@@ -27,6 +26,7 @@ from fuzzers import utils
 def get_yfuzz_build_directory(target_directory):
     """Return path to YFuzz target directory."""
     return os.path.join(target_directory, 'yfuzz')
+
 
 def get_cmplog_build_directory(target_directory):
     """Return path to CmpLog target directory."""
